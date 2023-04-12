@@ -1,0 +1,30 @@
+public class Bestellung {
+  private int bid;
+  private int tid;
+  private int anzExport;
+  private int anzWasser;
+  private int anzCola;
+  private int anzCoWeizen;
+  private int anzWeizen;
+  private int anzBeWecken;
+  private int anzSeele;
+  private int anzWurstsalat;
+  private double bPreis; //gesamterPreis
+  
+  public Bestellung(int b_nr, double preis, int tid_b, int Export, int Wasser, int Cola, int Colaweizen, int Weizen, int Wecken, int Seele, int Wurstsalat){
+    this.bid=b_nr;
+    this.bPreis=preis;
+    this.tid=tid_b;
+    this.anzExport=Export;
+    this.anzWasser=Wasser;
+    this.anzCola=Cola;
+    this.anzCoWeizen=Colaweizen;
+    this.anzWeizen=Weizen;
+    this.anzBeWecken=Wecken;
+    this.anzSeele=Seele;
+    this.anzWurstsalat=Wurstsalat;
+  }
+
+  
+  
+}
